@@ -1,0 +1,9 @@
+body {
+  text-rendering: optimizeLegibility;
+  color: #222222;
+  font: normal 100%;
+  line-height: 1.4em;
+}
+body a { text-decoration: none; }
+body p { font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2"; }
+.splash h1 { font-family: "p22-underground-1", "p22-underground-2"; }
