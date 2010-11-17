@@ -1,11 +1,12 @@
 @charcoal: rgb(34,34,34);
-@paleBlue: rgb(208,228,242);
+@paleBlue: rgb(102,94,135);
 
 body {
 	text-rendering: optimizeLegibility;
 	color: @charcoal;
 	font: normal 100%;
 	line-height: 1.4em;
+	min-width:612px;
 }
 
 body a {
@@ -14,7 +15,13 @@ body a {
 }
 
 body a:hover {
-	text-decoration: underline;
+	text-decoration: none;
+	color: @paleBlue;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	border-style: dotted;
 }
 
 body p {
@@ -30,9 +37,9 @@ body .title_group header {
 
 body .title_group header a {
 	font-family: "p22-underground-1","p22-underground-2";
-	font-size: 1.5em;
-	color: #000;
-	
+	font-size: 1.625em;
+	font-weight: 100;
+	color: #000;	
 }
 
 body .title_group nav {
@@ -56,19 +63,34 @@ body .title_group nav .sep {
 	margin: 0px auto;
 	max-width: 38.25em;
 	overflow: hidden;
+	min-height: 100%;
+
 }
 
 .splash {
-	padding-top: 7em;
+	display: block;
+	padding-top: 80px;
 	font-family: "p22-underground-1","p22-underground-2";
+	font-size: 2.25em;
+	line-height: 1.4em;
+	margin-bottom: 4.2em;
 }
 
 .splash p {
 	padding-left: 2px;
+	width: 62.5%;
+}
+
+.splash p a {
+	text-decoration: none;
+	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2";
+	color: #000;
 }
 
 .content {
 	padding-top: 7em;
+	margin-bottom: 4.2em;
+	min-height: 480px;
 	h3 {
 		font-family: "p22-underground-1","p22-underground-2";
 		padding-left: 2px;
@@ -76,12 +98,18 @@ body .title_group nav .sep {
 }
 
 body .footer {
-	position: fixed;
 	bottom: 1.4em;
+	height: 4.2em;
 }
 
 
 body .footer .tool a{
 	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2";
 	color: #000;
+}
+
+.deco {
+	float:right;
+	width: 17.97%;
+	height: 480px;
 }

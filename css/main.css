@@ -3,12 +3,21 @@ body {
   color: #222222;
   font: normal 100%;
   line-height: 1.4em;
+  min-width: 612px;
 }
 body a {
   text-decoration: none;
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
 }
-body a:hover { text-decoration: underline; }
+body a:hover {
+  text-decoration: none;
+  color: #665e87;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-style: dotted;
+}
 body p { font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2"; }
 body .title_group header {
   float: left;
@@ -18,7 +27,8 @@ body .title_group header {
 }
 body .title_group header a {
   font-family: "p22-underground-1", "p22-underground-2";
-  font-size: 1.5em;
+  font-size: 1.625em;
+  font-weight: 100;
   color: #000000;
 }
 body .title_group nav {
@@ -37,22 +47,44 @@ body .title_group nav .sep { padding: 0 4px; }
   margin: 0px auto;
   max-width: 38.25em;
   overflow: hidden;
+  min-height: 100%;
 }
 .splash {
-  padding-top: 7em;
+  display: block;
+  padding-top: 80px;
   font-family: "p22-underground-1", "p22-underground-2";
+  font-size: 2.25em;
+  line-height: 1.4em;
+  margin-bottom: 4.2em;
 }
-.splash p { padding-left: 2px; }
-.content { padding-top: 7em; }
+.splash p {
+  padding-left: 2px;
+  width: 62.5%;
+}
+.splash p a {
+  text-decoration: none;
+  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
+  color: #000000;
+}
+.content {
+  padding-top: 7em;
+  margin-bottom: 4.2em;
+  min-height: 480px;
+}
 .content h3 {
   font-family: "p22-underground-1", "p22-underground-2";
   padding-left: 2px;
 }
 body .footer {
-  position: fixed;
   bottom: 1.4em;
+  height: 4.2em;
 }
 body .footer .tool a {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
   color: #000000;
+}
+.deco {
+  float: right;
+  width: 17.97%;
+  height: 480px;
 }
