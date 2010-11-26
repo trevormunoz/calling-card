@@ -153,6 +153,11 @@ body .site .post p a {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
   color: #000000;
 }
+body .site .post #comment-toggle a {
+  text-decoration: none;
+  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
+  color: #000000;
+}
 body .site .post #disqus_thread { margin-top: 3.625em; }
 body .footer {
   bottom: 1.4em;
