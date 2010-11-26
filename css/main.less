@@ -1,5 +1,6 @@
 @charcoal: rgb(34,34,34);
 @paleBlue: rgb(102,94,135);
+@reddish: rgb(166,98,73);
 
 body {
 	text-rendering: optimizeLegibility;
@@ -7,6 +8,7 @@ body {
 	font: normal 100%;
 	line-height: 1.4em;
 	min-width:612px;
+	background-color: rgb(236,236,236);
 }
 
 body a {
@@ -103,6 +105,7 @@ body .site .content h3 {
 	font-weight: 600;
 	font-style: normal;
 	padding-left: 2px;
+	color: @reddish;
 }
 
 body .site .content p {
@@ -117,12 +120,18 @@ body .site .content p a {
 	color: #000;
 }
 
-body .site .content .timestamp {
-	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2";
+body .site .post .timestamp {
+	padding-top: 3.625em;
 }
 
-body .site .content .timestamp abbr {
+body .site .post .timestamp p {
 	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2";
+	color: @paleBlue;
+}
+
+body .site .post p.timestamp abbr {
+	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2";
+	color: @paleBlue;
 }
 
 body .site .content ul li {
@@ -154,6 +163,7 @@ body .site .post h3 {
 	font-size: 1.625em;
 	font-style: normal;
 	padding-left: 2px;
+	color: @reddish;
 }
 
 body .site .post .home {
@@ -166,7 +176,7 @@ body .site .post .home {
 body .site .post p {
 	padding-left: 2px;
 	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2";
-	line-height: 1.125em;
+	line-height: 1.625em;
 }
 
 body .site .post p a {
@@ -189,5 +199,5 @@ body .footer .tool a{
 .deco {
 	float:right;
 	width: 17.97%;
-	height: 480px;
+	height: 400px;
 }
