@@ -9,6 +9,7 @@ body a {
   text-decoration: none;
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
 }
+body a:visited { color: #665e87; }
 body a:hover {
   text-decoration: none;
   color: #665e87;
@@ -53,9 +54,9 @@ body .title_group nav .sep { padding: 0 4px; }
   display: block;
   padding-top: 80px;
   font-family: "p22-underground-1", "p22-underground-2";
-  font-size: 2.25em;
+  font-size: 1.625em;
   line-height: 1.4em;
-  margin-bottom: 4.2em;
+  min-height: 400px;
 }
 .splash p {
   padding-left: 2px;
@@ -69,7 +70,7 @@ body .title_group nav .sep { padding: 0 4px; }
 body .site .content {
   padding-top: 80px;
   margin-bottom: 4.2em;
-  min-height: 480px;
+  min-height: 400px;
 }
 body .site .content h3 {
   font-family: "p22-underground-1", "p22-underground-2";
@@ -77,11 +78,17 @@ body .site .content h3 {
   font-weight: 600;
   font-style: normal;
   padding-left: 2px;
+  line-height: 69px;
 }
 body .site .content p {
   padding-left: 2px;
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
   line-height: 1.625em;
+}
+body .site .content p a {
+  text-decoration: none;
+  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
+  color: #000000;
 }
 body .site .content ul li { list-style-type: none; }
 body .site .content ul li .dateString {
@@ -97,7 +104,7 @@ body .site .content ul li a:visited { color: #665e87; }
 body .site .post {
   padding-top: 80px;
   margin-bottom: 4.2em;
-  min-height: 480px;
+  min-height: 400px;
 }
 body .site .post h3 {
   width: 100%;
@@ -106,6 +113,7 @@ body .site .post h3 {
   font-size: 1.625em;
   font-style: normal;
   padding-left: 2px;
+  line-height: 69px;
 }
 body .site .post .home {
   float: right;
