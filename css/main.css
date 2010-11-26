@@ -48,6 +48,7 @@ body .title_group nav .sep { padding: 0 4px; }
 .site {
   margin: 0px auto;
   max-width: 38.25em;
+  padding: 5px;
   overflow: hidden;
   min-height: 100%;
 }
@@ -91,7 +92,7 @@ body .site .content p a {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
   color: #000000;
 }
-body .site .post .timestamp { padding-top: 3.625em; }
+body .site .post .timestamp { margin-top: 3.625em; }
 body .site .post .timestamp p {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
   color: #665e87;
@@ -144,6 +145,12 @@ body .site .post p a {
 body .footer {
   bottom: 1.4em;
   height: 4.2em;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #000000;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
 }
 body .footer .tool a {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
