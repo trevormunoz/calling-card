@@ -6,10 +6,12 @@
 		<meta name="author" content="Trevor Munoz">
 		
 		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="alternate" href="atom.xml" type="application/atom+xml" title="sitewide atom feed">
+		<link rel="stylesheet" href="/css/main.css" type="text/css" media="screen">
 		
-		<link rel="alternate" href="atom.xml" type="application/atom+xml" title="sitewide atom feed" charset="utf-8">
-		
-		<link rel="stylesheet" href="/css/main.css" type="text/css" media="screen" charset="utf-8">
+		<!-- Javascript -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+		<script type="text/javascript" src="/jquery.timeago.js"></script>
 		
 		<!-- Typekit -->
 		<script type="text/javascript" src="http://use.typekit.com/zle8enf.js"></script>
@@ -35,14 +37,20 @@
 				</nav>
 			</div>
 			
+			<script type="text/javascript">
+				jQuery(document).ready(function() {
+				  jQuery("abbr.timeago").timeago();
+				});
+			</script>
+			
 			{{ content }}
 
 			<div class="footer">
-				<div class-"rights">
+				<div class="rights">
 					<p><strong>trevormunoz.com</strong> &copy; copyright 2010 All rights reserved</p>
 				</div>
 				<div class="tool">
-					<p>Site generated using <a href="http://github.com/mojombo/jekyll/">Jekyll</a></p>
+					<p>Site generated using <a href="http://github.com/mojombo/jekyll/" target="_blank">Jekyll</a></p>
 				</div>
 			</div>
 			
