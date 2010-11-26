@@ -5,6 +5,8 @@ title: Test
 
 ### This is a test ###
 
+#### This is the lede. A small intro to the article. Hopefully, by now, you will be interested in reading further ... ####
+
 If this were a real post you would be reading something cool right now.
 
 <div class="timestamp">

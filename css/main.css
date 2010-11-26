@@ -132,6 +132,16 @@ body .site .post .home {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
   color: #000000;
 }
+body .site .post h4 {
+  display: block;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-family: "p22-underground-1", "p22-underground-2";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.3125em;
+  color: #665e87;
+}
 body .site .post p {
   padding-left: 2px;
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
@@ -142,9 +152,10 @@ body .site .post p a {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
   color: #000000;
 }
+body .site .post #disqus_thread { margin-top: 3.625em; }
 body .footer {
   bottom: 1.4em;
-  height: 4.2em;
+  min-height: 4.2em;
   border-top-style: solid;
   border-top-width: 1px;
   border-top-color: #000000;
