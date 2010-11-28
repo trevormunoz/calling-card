@@ -68,7 +68,6 @@ body .title_group nav .sep { padding: 0 4px; }
 .splash p a {
   text-decoration: none;
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
-  color: #000000;
 }
 body .site .content {
   margin-top: 80px;
@@ -91,7 +90,6 @@ body .site .content p {
 body .site .content p a {
   text-decoration: none;
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
-  color: #000000;
 }
 body .site .post .timestamp { margin-top: 3.625em; }
 body .site .post .timestamp p {
@@ -105,12 +103,11 @@ body .site .post p.timestamp abbr {
 body .site .content ul li { list-style-type: none; }
 body .site .content ul li .dateString {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
-  color: #665e87;
+  color: #000000;
 }
 body .site .content ul li a {
   text-decoration: none;
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
-  color: #000000;
 }
 body .site .content ul li a:visited { color: #665e87; }
 body .site .post {
@@ -153,12 +150,10 @@ body .site .post p {
 body .site .post p a {
   text-decoration: none;
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
-  color: #000000;
 }
 body .site .post #comment-toggle a {
   text-decoration: none;
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
-  color: #000000;
 }
 body .site .post #disqus_thread { margin-top: 3.625em; }
 body .footer {
@@ -178,5 +173,4 @@ body .footer .tool a {
 .deco {
   float: right;
   width: 17.97%;
-  height: 400px;
 }
