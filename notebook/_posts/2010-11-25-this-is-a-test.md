@@ -1,11 +1,8 @@
 ---
 layout: post
-title: Test
+title: This is a test
+lede: This is the lede. A small intro to the article. Hopefully, by now, you will be interested in reading further ...
 ---
-
-## This is a test ##
-
-#### This is the lede. A small intro to the article. Hopefully, by now, you will be interested in reading further ... ####
 
 If this were a real post you would be reading something cool right now. Until then, how about some *Moby Dick*?
 
