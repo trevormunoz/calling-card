@@ -63,7 +63,7 @@ body .title_group nav .sep { padding: 0 4px; }
 }
 .splash p {
   padding-left: 2px;
-  width: 62.5%;
+  width: 80%;
 }
 .splash p a {
   text-decoration: none;
@@ -173,4 +173,5 @@ body .footer .tool a {
 .deco {
   float: right;
   width: 17.97%;
+  height: 400px;
 }
