@@ -143,6 +143,12 @@ body .site .wrapper .post .home {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
   color: #000000;
 }
+body .site .wrapper .post .sharing {
+  width: 100%;
+  float: right;
+  margin-bottom: 1.625em;
+}
+body .site .wrapper .post .sharing iframe { float: right; }
 body .site .wrapper .post h4 {
   display: block;
   padding-left: 2em;
