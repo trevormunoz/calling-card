@@ -59,7 +59,7 @@ body .site .wrapper {
 }
 body .site .wrapper .splash {
   display: block;
-  margin-top: 80px;
+  margin-top: 120px;
   font-family: "p22-underground-1", "p22-underground-2";
   font-size: 1.625em;
   line-height: 1.4em;
@@ -74,13 +74,13 @@ body .site .wrapper .splash p a {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2";
 }
 body .site .wrapper .content {
-  margin-top: 80px;
+  margin-top: 120px;
   margin-bottom: 4.2em;
   min-height: 400px;
 }
 body .site .wrapper .content h2 {
   font-family: "p22-underground-1", "p22-underground-2";
-  font-size: 1.625em;
+  font-size: 2.125em;
   font-weight: 600;
   font-style: normal;
   padding-left: 2px;
@@ -115,7 +115,7 @@ body .site .wrapper .content ul li a {
 }
 body .site .wrapper .content ul li a:visited { color: #665e87; }
 body .site .wrapper .post {
-  margin-top: 80px;
+  margin-top: 120px;
   margin-bottom: 4.2em;
   min-height: 400px;
 }
@@ -123,6 +123,15 @@ body .site .wrapper .post h2 {
   width: 100%;
   font-family: "p22-underground-1", "p22-underground-2";
   font-weight: 600;
+  font-size: 2.125em;
+  font-style: normal;
+  padding-left: 2px;
+  color: #a66249;
+}
+body .site .wrapper .post h3 {
+  width: 100%;
+  font-family: "p22-underground-1", "p22-underground-2";
+  font-weight: 400;
   font-size: 1.625em;
   font-style: normal;
   padding-left: 2px;
