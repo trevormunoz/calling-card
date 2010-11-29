@@ -1,5 +1,6 @@
 @charcoal: rgb(34,34,34);
 @paleBlue: rgb(102,94,135);
+@aquaBlue: rgb(42,94,140);
 @reddish: rgb(166,98,73);
 
 body {
@@ -113,6 +114,36 @@ body .site .wrapper .content h2 {
 	color: @reddish;
 }
 
+body .site .wrapper .content .home {
+	float: right;
+	text-decoration: none;
+	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2";
+	color: #000;
+}
+
+body .site .wrapper .content .pubSection {
+	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2";
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.625em;
+	color: #000;
+}
+
+body .site .wrapper .content h4 {
+	display: block;
+	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.3125em;
+	line-height: 1.4375;
+	color: @paleBlue;
+}
+
+body .site .wrapper .content .citation {
+	padding-left: 2px;
+	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2";
+}
+
 body .site .wrapper .content p {
 	padding-left: 2px;
 	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2";
@@ -122,6 +153,79 @@ body .site .wrapper .content p {
 body .site  .wrapper .content p a {
 	text-decoration: none;
 	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2";
+}
+
+body .site  .wrapper .content .tba {
+	float: right;
+	margin-top: 1em;
+}
+
+body .site .wrapper .content .projectList {
+	width: 100%;
+}
+
+body .site .wrapper .content .projectList .infoBox {
+	position: relative;
+	width: 133px;
+	float: left;
+	min-height: 180px;
+	padding: 10px;
+}
+
+#bpg{
+	background-color: rgb(93,124,166);
+}
+#dceph{
+	background-color: rgb(154,193,217);
+}
+#wwp{
+	background-color: rgb(242,181,68);
+}
+#weme{
+	background-color: rgb(191,89,52);
+}
+#railroads{
+	background-color: rgb(198,113,67);
+}
+#next1{
+	background-color: @aquaBlue;
+}
+#next2{
+	background-color: @aquaBlue;
+}
+#next3{
+	background-color: @aquaBlue;
+}
+
+body .site .wrapper .content .projectList .infoBox time {
+	display: block;
+	font-family: "p22-underground-1","p22-underground-2";
+	font-weight: 100;
+	color: #000;
+	
+}
+
+body .site .wrapper .content .projectList .infoBox span {
+	display: block;
+	text-align: left;
+	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2";
+	color: #fff;
+	a {
+		display: block;
+		text-align: left;
+		font-family: "p22-underground-1","p22-underground-2";
+		font-weight: 400;
+		color: #fff;
+	}
+}
+
+body .site .wrapper .content .projectList .infoBox .projectRole {
+	position: absolute;
+	bottom: 10px;
+}
+
+body .site .wrapper .content .projectDetail{
+	min-height: 360px;
 }
 
 body .site  .wrapper .post .timestamp {
@@ -136,6 +240,10 @@ body .site  .wrapper .post .timestamp p {
 body .site  .wrapper .post p.timestamp abbr {
 	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2";
 	color: @paleBlue;
+}
+
+body .site .wrapper .content ul {
+	padding-left: 100px;
 }
 
 body .site .wrapper .content ul li {
@@ -249,7 +357,7 @@ body .site .wrapper .footer .tool a{
 .deco {
 	float:right;
 	position: relative;
-	left: 55px;
+	left: 109px;
 	width: 17.97%;
 	height: 400px;
 	z-index: 100;
