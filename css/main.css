@@ -223,7 +223,7 @@ body .site .wrapper .post .sharing iframe { float: right; }
 body .site .wrapper .post h4 {
   display: block;
   padding-left: 2em;
-  width: 100%;
+  width: 80%;
   font-family: "p22-underground-1", "p22-underground-2", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -241,6 +241,12 @@ body .wrapper .post p a {
   text-decoration: none;
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", serif;
 }
+body .wrapper .post .post-image {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body .wrapper .post .post-image p { font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", serif; }
 body .wrapper .post #comment-toggle a {
   text-decoration: none;
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", serif;
