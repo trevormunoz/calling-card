@@ -189,6 +189,7 @@ body .site .wrapper .post {
   min-height: 400px;
 }
 body .site .wrapper .post h2 {
+  display: block;
   width: 100%;
   font-family: "p22-underground-1", "p22-underground-2", sans-serif;
   font-weight: 600;
@@ -207,6 +208,7 @@ body .site .wrapper .post h3 {
   color: #a66249;
 }
 body .site .wrapper .post .home {
+  display: block;
   float: right;
   text-decoration: none;
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", serif;
@@ -221,7 +223,7 @@ body .site .wrapper .post .sharing iframe { float: right; }
 body .site .wrapper .post h4 {
   display: block;
   padding-left: 2em;
-  width: 75%;
+  width: 100%;
   font-family: "p22-underground-1", "p22-underground-2", sans-serif;
   font-weight: 300;
   font-style: normal;
