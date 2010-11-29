@@ -266,3 +266,10 @@ body .site .wrapper .footer .tool a {
   height: 400px;
   z-index: 100;
 }
+.margin {
+  float: right;
+  position: relative;
+  bottom: 77px;
+  left: 175px;
+  opacity: 0.7;
+}
