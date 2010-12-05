@@ -193,16 +193,7 @@ body .site .wrapper .post h2 {
   width: 100%;
   font-family: "p22-underground-1", "p22-underground-2", sans-serif;
   font-weight: 600;
-  font-size: 2.125em;
-  font-style: normal;
-  padding-left: 2px;
-  color: #a66249;
-}
-body .site .wrapper .post h3 {
-  width: 100%;
-  font-family: "p22-underground-1", "p22-underground-2", sans-serif;
-  font-weight: 400;
-  font-size: 1.625em;
+  font-size: 1.3125em;
   font-style: normal;
   padding-left: 2px;
   color: #a66249;
@@ -229,7 +220,6 @@ body .site .wrapper .post h4 {
   font-style: normal;
   font-size: 1.3125em;
   line-height: 1.4375;
-  text-align: justify;
   color: #665e87;
 }
 body .site .wrapper .post p {
