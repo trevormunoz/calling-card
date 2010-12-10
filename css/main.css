@@ -24,7 +24,7 @@ body a:hover {
 body p { font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif; }
 body .title_group header {
   float: left;
-  width: 33%;
+  width: 29.5%;
   line-height: 69px;
   padding-left: 2px;
 }
@@ -36,7 +36,7 @@ body .title_group header a {
 }
 body .title_group nav {
   float: left;
-  width: 66%;
+  width: 70%;
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif;
   line-height: 69px;
   text-align: right;
