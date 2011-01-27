@@ -179,6 +179,7 @@ body .site .wrapper .content ul li .dateString {
   color: #000000;
 }
 body .site .wrapper .content ul li .postSlug {
+  margin: 5px auto;
   padding-left: 40px;
   font-family: "p22-underground-1", "p22-underground-2", "Helvetica Neue", sans-serif;
   font-weight: 300;
@@ -200,7 +201,7 @@ body .site .wrapper .post h2 {
   width: 100%;
   font-family: "p22-underground-1", "p22-underground-2", "Helvetica Neue", sans-serif;
   font-weight: 600;
-  font-size: 1.3125em;
+  font-size: 1.1875em;
   font-style: normal;
   padding-left: 2px;
   color: #a66249;
@@ -225,7 +226,7 @@ body .site .wrapper .post h4 {
   font-family: "p22-underground-1", "p22-underground-2", "Helvetica Neue", sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 1.3125em;
+  font-size: 1.1875em;
   line-height: 1.4375;
   color: #665e87;
 }
