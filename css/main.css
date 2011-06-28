@@ -290,6 +290,7 @@ body .site .wrapper .footer .tool a {
   width: 75%;
 }
 .cvSectionContent ul li {
+  margin-left: -100px;
   list-style-type: none;
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif;
 }
