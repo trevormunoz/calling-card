@@ -133,12 +133,13 @@ body .site .wrapper .content .projectList .infoBox {
   min-height: 180px;
   padding: 10px;
 }
-#bpg { background-color: #5d7ca6; }
-#dceph { background-color: #9ac1d9; }
-#wwp { background-color: #f2b544; }
-#weme { background-color: #bf5934; }
-#railroads { background-color: #c67143; }
-#next1, #next2, #next3 { background-color: #2a5e8c; }
+#cur8DH { background-color: #5d7ca6; }
+#bpg { background-color: #9ac1d9; }
+#dceph { background-color: #f2b544; }
+#wwp { background-color: #bf5934; }
+#weme { background-color: #c67143; }
+#railroads { background-color: #cf9f84; }
+#next1, #next2 { background-color: #2a5e8c; }
 body .site .wrapper .content .projectList .infoBox time {
   display: block;
   font-family: "p22-underground-1", "p22-underground-2", "Helvetica Neue", sans-serif;
