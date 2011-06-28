@@ -4,7 +4,7 @@ body {
   font: normal 100%;
   line-height: 1.4em;
   min-width: 612px;
-  background-color: #ececec;
+  background-color: #f6f6f6;
 }
 body a {
   text-decoration: none;
@@ -278,4 +278,23 @@ body .site .wrapper .footer .tool a {
   bottom: 77px;
   left: 175px;
   opacity: 0.7;
+}
+.dateSidebar {
+  float: left;
+  width: 25%;
+  padding-top: 1em;
+  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif;
+}
+.cvItem {
+  float: left;
+  width: 75%;
+}
+.cvSectionContent ul li {
+  list-style-type: none;
+  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif;
+}
+body .site .content .cvSectionContent ul li .cvItem ul li {
+  list-style-type: circle;
+  margin-top: 0.75em;
+  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif;
 }
