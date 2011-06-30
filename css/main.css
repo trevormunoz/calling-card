@@ -173,6 +173,7 @@ body .site .wrapper .post p.timestamp abbr {
   color: #665e87;
 }
 body .site .wrapper .content ul { padding-left: 100px; }
+body .site .wrapper .content ul.posts { padding-left: 0px; }
 body .site .wrapper .content ul li { list-style-type: none; }
 body .site .wrapper .content ul li .dateString {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif;
