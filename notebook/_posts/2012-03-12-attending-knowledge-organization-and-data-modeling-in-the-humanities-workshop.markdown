@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Attending the Knowledge Organization and Data Modeling in the Humanities Workshop at Brown University, March 14-16, 2012
-lede: This week I will be one of the participants at a three-day workshop on ["Knowledge Organization and Data Modeling in the Humanities"](http://datasymposium.wordpress.com/) co-sponsored by the [Centre for Digital Editions at the University of Würzburg](http://www.zde.uni-wuerzburg.de/) and the [Brown University Center for Digital Scholarship](http://library.brown.edu/cds/).
+lede: This week I will be one of the participants at a three-day workshop on "Knowledge Organization and Data Modeling in the Humanities" co-sponsored by the Centre for Digital Editions at the University of Würzburg and the Brown University Center for Digital Scholarship.
 ---
 *cross-posted from the [MITH blog](http://mith.umd.edu/mith-associate-director-participating-in-knowledge-organization-and-data-modeling-in-the-humanities-workshop/)*
 
