@@ -11,7 +11,9 @@ body a {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif;
   color: #a66249;
 }
-body a:visited { color: #665e87; }
+body a:visited {
+  color: #665e87;
+}
 body a:hover {
   text-decoration: none;
   color: #665e87;
@@ -21,7 +23,9 @@ body a:hover {
   border-top-width: 0px;
   border-style: dotted;
 }
-body p { font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif; }
+body p {
+  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif;
+}
 body .title_group header {
   float: left;
   width: 29.5%;
@@ -32,7 +36,7 @@ body .title_group header a {
   font-family: "p22-underground-1", "p22-underground-2", "Helvetica Neue", sans-serif;
   font-size: 1.625em;
   font-weight: 100;
-  color: #000000;
+  color: #000;
 }
 body .title_group nav {
   float: left;
@@ -43,9 +47,11 @@ body .title_group nav {
 }
 body .title_group nav a {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif;
-  color: #000000;
+  color: #000;
 }
-body .title_group nav .sep { padding: 0 4px; }
+body .title_group nav .sep {
+  padding: 0 4px;
+}
 body .site {
   max-width: 60em;
   margin: 0px auto;
@@ -96,7 +102,7 @@ body .site .wrapper .content .pubSection {
   font-weight: 400;
   font-style: italic;
   font-size: 1.625em;
-  color: #000000;
+  color: #000;
 }
 body .site .wrapper .content h4 {
   display: block;
@@ -124,7 +130,9 @@ body .site .wrapper .content .tba {
   float: right;
   margin-top: 1em;
 }
-body .site .wrapper .content .projectList { width: 100%; }
+body .site .wrapper .content .projectList {
+  width: 100%;
+}
 body .site .wrapper .content .projectList .infoBox {
   position: relative;
   width: 133px;
@@ -132,38 +140,59 @@ body .site .wrapper .content .projectList .infoBox {
   min-height: 180px;
   padding: 10px;
 }
-#cur8DH { background-color: #5d7ca6; }
-#bpg { background-color: #9ac1d9; }
-#dceph { background-color: #f2b544; }
-#wwp { background-color: #bf5934; }
-#weme { background-color: #c67143; }
-#railroads { background-color: #cf9f84; }
-#next1, #next2 { background-color: #2a5e8c; }
+#cur8DH {
+  background-color: #5d7ca6;
+}
+#bpg {
+  background-color: #9ac1d9;
+}
+#dceph {
+  background-color: #f2b544;
+}
+#wwp {
+  background-color: #bf5934;
+}
+#weme {
+  background-color: #c67143;
+}
+#railroads {
+  background-color: #cf9f84;
+}
+#next1 {
+  background-color: #2a5e8c;
+}
+#next2 {
+  background-color: #2a5e8c;
+}
 body .site .wrapper .content .projectList .infoBox time {
   display: block;
   font-family: "p22-underground-1", "p22-underground-2", "Helvetica Neue", sans-serif;
   font-weight: 100;
-  color: #000000;
+  color: #000;
 }
 body .site .wrapper .content .projectList .infoBox span {
   display: block;
   text-align: left;
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif;
-  color: #ffffff;
+  color: #fff;
 }
 body .site .wrapper .content .projectList .infoBox span a {
   display: block;
   text-align: left;
   font-family: "p22-underground-1", "p22-underground-2", "Helvetica Neue", sans-serif;
   font-weight: 400;
-  color: #ffffff;
+  color: #fff;
 }
 body .site .wrapper .content .projectList .infoBox .projectRole {
   position: absolute;
   bottom: 10px;
 }
-body .site .wrapper .content .projectDetail { min-height: 360px; }
-body .site .wrapper .post .timestamp { margin-top: 3.625em; }
+body .site .wrapper .content .projectDetail {
+  min-height: 360px;
+}
+body .site .wrapper .post .timestamp {
+  margin-top: 3.625em;
+}
 body .site .wrapper .post .timestamp p {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif;
   color: #665e87;
@@ -172,13 +201,21 @@ body .site .wrapper .post p.timestamp abbr {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif;
   color: #665e87;
 }
-body .site .wrapper .content ul { padding-left: 100px; }
-body .site .wrapper .content ul.posts { padding-left: 0px; }
-body .site .wrapper .content ul.posts li:first-child a { font-size: 1.1875em; }
-body .site .wrapper .content ul li { list-style-type: none; }
+body .site .wrapper .content ul {
+  padding-left: 100px;
+}
+body .site .wrapper .content ul.posts {
+  padding-left: 0px;
+}
+body .site .wrapper .content ul.posts li:first-child a {
+  font-size: 1.1875em;
+}
+body .site .wrapper .content ul li {
+  list-style-type: none;
+}
 body .site .wrapper .content ul li .dateString {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif;
-  color: #000000;
+  color: #000;
 }
 body .site .wrapper .content ul li .postSlug {
   margin: 5px auto;
@@ -192,7 +229,9 @@ body .site .wrapper .content ul li a {
   text-decoration: none;
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif;
 }
-body .site .wrapper .content ul li a:visited { color: #665e87; }
+body .site .wrapper .content ul li a:visited {
+  color: #665e87;
+}
 body .site .wrapper .post {
   margin-top: 120px;
   margin-bottom: 4.2em;
@@ -208,6 +247,15 @@ body .site .wrapper .post h2 {
   padding-left: 2px;
   color: #a66249;
 }
+/* body .site .wrapper .post h3 {
+	width: 100%;
+	font-family: "p22-underground-1","p22-underground-2", "Helvetica Neue", sans-serif;
+	font-weight: 400;
+	font-size: 1.625em;
+	font-style: normal;
+	padding-left: 2px;
+	color: @reddish;
+} */
 body .site .wrapper .post .home {
   display: block;
   text-align: right;
@@ -219,7 +267,9 @@ body .site .wrapper .post .sharing {
   float: right;
   margin-bottom: 1.625em;
 }
-body .site .wrapper .post .sharing iframe { float: right; }
+body .site .wrapper .post .sharing iframe {
+  float: right;
+}
 body .site .wrapper .post h4 {
   display: block;
   padding-left: 2em;
@@ -229,6 +279,8 @@ body .site .wrapper .post h4 {
   font-style: normal;
   font-size: 1.1875em;
   line-height: 1.4375;
+  /* text-align: justify; */
+
   color: #665e87;
 }
 body .site .wrapper .post p {
@@ -245,25 +297,32 @@ body .wrapper .post .post-image {
   margin-left: auto;
   margin-right: auto;
 }
-body .wrapper .post .post-image p { font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif; }
+body .wrapper .post .post-image p {
+  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif;
+}
 body .wrapper .post #comment-toggle a {
   text-decoration: none;
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif;
 }
-body .site .wrapper .post #disqus_thread { margin-top: 3.625em; }
+body .site .wrapper .post #disqus_thread {
+  margin-top: 3.625em;
+}
 body .site .wrapper .footer {
   bottom: 1.4em;
   min-height: 4.2em;
   border-top-style: solid;
   border-top-width: 1px;
-  border-top-color: #000000;
+  border-top-color: #000;
   border-right-style: none;
   border-bottom-style: none;
   border-left-style: none;
 }
+body .site .wrapper .footer .rights p {
+  line-height: 69px;
+}
 body .site .wrapper .footer .tool a {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif;
-  color: #000000;
+  color: #000;
 }
 .deco {
   float: right;
@@ -280,6 +339,7 @@ body .site .wrapper .footer .tool a {
   left: 175px;
   opacity: 0.7;
 }
+/* Start styles for HTML CV */
 .dateSidebar {
   float: left;
   width: 25%;
@@ -297,6 +357,10 @@ body .site .wrapper .footer .tool a {
 }
 body .site .content .cvSectionContent ul li .cvItem ul li {
   list-style-type: circle;
-  margin-top: 0.75em;
+  margin-top: .75em;
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif;
+}
+.comment-boilerplate {
+  padding-top: 20px;
+  color: #bdbdbd;
 }
