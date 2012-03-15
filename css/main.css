@@ -317,9 +317,6 @@ body .site .wrapper .footer {
   border-bottom-style: none;
   border-left-style: none;
 }
-body .site .wrapper .footer .rights p {
-  line-height: 69px;
-}
 body .site .wrapper .footer .tool a {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif;
   color: #000;
