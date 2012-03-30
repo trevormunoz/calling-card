@@ -202,7 +202,7 @@ body .site .wrapper .post p.timestamp abbr {
   color: #665e87;
 }
 body .site .wrapper .content ul {
-  padding-left: 100px;
+  padding-left: 50px;
 }
 body .site .wrapper .content ul.posts {
   padding-left: 0px;
@@ -212,10 +212,8 @@ body .site .wrapper .content ul.posts li:first-child a {
 }
 body .site .wrapper .content ul li {
   list-style-type: none;
-}
-body .site .wrapper .content ul li .dateString {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif;
-  color: #000;
+  margin-bottom: 1em;
 }
 body .site .wrapper .content ul li .postSlug {
   margin: 5px auto;
