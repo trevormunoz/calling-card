@@ -42,6 +42,8 @@ We're also working to help create [more][dhwi] [training][dhdc] [opportunities][
 
 The challenges to getting DH done in libraries (and outside them) are real. Setting aside the idea of digital humanities as a service and the concomitant focus on faculty (at least while DH is getting started in a new community) will be important for libraries who want to do DH. As a recipe for digital humanities in libraries, I propose instead: creating a space outside existing commitments, having administrator (and library opinion leader) support for librarians to participate in that space, wielding the power of lazy consensus to just get down to work, and making sure channels are open along paths to production for tech transfer back to existing mission-critical library services an activities.
 
+You can comment on this post [on Github](https://gist.github.com/3415438)
+
 [skunk]: http://nowviskie.org/2011/a-skunk-in-the-library/
 [reality]: http://nowviskie.org/2012/reality-bytes/
 [consensus]: http://nowviskie.org/2012/lazy-consensus/
