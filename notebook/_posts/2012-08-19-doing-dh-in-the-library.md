@@ -44,20 +44,6 @@ The challenges to getting DH done in libraries (and outside them) are real. Sett
 
 You can comment on this post [on Github](https://gist.github.com/3415438)
 
-<script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            var disqus_shortname = 'trevormuoz'; // required: replace example with your forum shortname
-
-            /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
 [skunk]: http://nowviskie.org/2011/a-skunk-in-the-library/
 [reality]: http://nowviskie.org/2012/reality-bytes/
 [consensus]: http://nowviskie.org/2012/lazy-consensus/
