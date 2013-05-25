@@ -1,26 +1,97 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 	<head>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 		<title>{{ page.title }}</title>
 		<meta name="author" content="Trevor Munoz">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
 		<link rel="shortcut icon" href="/favicon.ico" />
 		<link rel="alternate" href="/atom.xml" type="application/atom+xml" title="sitewide atom feed">
-		<link rel="stylesheet" href="/css/main.css" type="text/css" media="screen">
-		<link rel="stylesheet" href="/css/print.css" type="text/css" media="print">
+		<link rel="stylesheet" href="/css/theme.css" type="text/css">
 		
 		<!-- Typekit -->
-		<script type="text/javascript" src="http://use.typekit.com/zle8enf.js"></script>
+		<script type="text/javascript" src="//use.typekit.net/rhq4pfd.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 		
 		<!-- Javascript -->
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-		<script type="text/javascript" src="/jquery.timeago.js"></script>
+		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+		<div id="wrapper">
+			<div class="container">
+				{{ content }}
+			</div>
+		</div>
 		
+		<footer>
+			<div class="container">
+				<!-- A kind of curated "front page" -->
+				<div id="packery-menu">
+				    <div class="item">
+				        <a href="https://twitter.com/trevormunoz">Twitter</a>
+				    </div>
+				    <div class="item">
+				        <a href="https://github.com/trevormunoz">Github</a>
+				    </div>
+				    <div class="item">
+				        <a href="https://speakerdeck.com/trevormunoz">Speaker Deck</a>
+				    </div>
+				    <div class="item">
+				        <a href="http://en.wikipedia.org/wiki/User:Trevormunoz">Wikipedia</a>
+				    </div>
+				    <div class="item">
+				        <a href="http://mith.umd.edu/people/person/trevor-munoz/">Work</a>
+				    </div>
+				    <div class="item post hidden-sm">
+				        <div class="dateline">19 August 2012</div>
+				        <h3><a href="notebook/2012/08/19/doing-dh-in-the-library.html">Digital humanities in the library isn't a service</a></h3>
+				        <p>"Framing digital humanities in libraries as a service to be provided and consequently centering the focus of the discussion on faculty members or others outside the library seem likely to stall rather than foster libraries engagement with digital humanities. I want digital humanities work in libraries that is innovative and iterative but that contributes back to the mission of (academic) libraries. The MITH-University Libraries Digital Humanities Incubator is a local effort to make that happen."
+				        <a href="/notebook/2012/08/19/doing-dh-in-the-library.html">»</a>
+				        </p>
+				    </div>
+				        <div class="item hidden-sm color-block">
+				        <canvas id="placeholder-2" width="250px" height="119px"></canvas>
+				    </div>
+				    <div class="item">
+				        <div class="label">Project</div>
+				        <a class="project-link" href="http://www.dhcuration.org/institute/">Digital Humanities Data Curation</a>
+				    </div>
+				     <div class="item color-block">
+				        <canvas id="placeholder-3" width="200px" height="100px"></canvas>
+				    </div>
+				        <div class="item hidden-sm color-block">
+				        <canvas id="placeholder-1" width="80px" height="240px"></canvas>
+				    </div>
+				    <div class="item">
+				        <a href="notebook">Other Writing</a>
+				    </div>
+				    <div class="item">
+				        <a href="about/cv/">Curriculum Vitae</a>
+				    </div>
+				    <div class="item hidden-sm">
+				        <canvas id="placeholder-5" width="110px" height="200px"></canvas>
+				    </div>
+				    <div class="item hidden-sm color-block">
+				        <canvas id="placeholder-4" width="675px" height="100px"></canvas>
+				    </div>
+				    <div class="item w40">
+				        <p>Except where otherwise noted this site is &#169; copyright Trevor Muñoz and licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.</p>
+				    </div>
+				</div>
+			</div>	
+		</footer>
+		<!-- Scripts -->
+		<script type="text/javascript" src="js/vendor/jquery-1.9.1.min.js"></script>
+		<script src="js/vendor/packery.pkgd.min.js"></script>
+		<script src="js/main.js"></script>
+
 		<!-- Analytics -->
 		<script type="text/javascript">
-
 		  var _gaq = _gaq || [];
 		  _gaq.push(['_setAccount', 'UA-20775614-1']);
 		  _gaq.push(['_trackPageview']);
@@ -30,47 +101,5 @@
 		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		  })();
-
-		</script
-	</head>
-	<body>
-
-		<div class="site">
-			<div class="wrapper">
-
-			<div class="title_group">
-				<header>
-					<a href="/">Trevor Muñoz</a>
-				</header>
-				<nav>
-					<a href="/about/">About</a>
-					<span class="sep">|</span>
-					<a href="/notebook/">Notebook</a>
-					<span class="sep">|</span>
-					<a href="http://feeds.feedburner.com/trevormunoz" target="_blank">Feed</a>
-					<span class="sep">|</span>
-					<a href="http://twitter.com/trevormunoz/" target="_blank">&#64;trevormunoz</a>
-				</nav>
-			</div>
-			
-			{{ content }}
-
-			<div class="footer">
-				<div class="rights">
-					<p>Posts by Trevor Muñoz on this site are  &#169; copyright Trevor Muñoz and licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.</p>
-					<p>When sharing material posted on this site, please reference the full URL for the page you are citing.</p>
-				</div>
-				<div class="tool">
-					<p>Site generated using <a href="http://github.com/mojombo/jekyll/" target="_blank">Jekyll</a></p>
-				</div>
-			</div>
-			</div>
-		</div>
-		
-		<script type="text/javascript">
-			jQuery(document).ready(function() {
-			  jQuery("abbr.timeago").timeago();
-			});
 		</script>
-		
 	</body>
