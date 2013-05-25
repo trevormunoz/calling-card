@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: entry
 title: Digital humanities in the library isn't a service
 lede: Framing digital humanities in libraries as a service to be provided and consequently centering the focus of the discussion on faculty members or others outside the library seem likely to stall rather than foster libraries engagement with digital humanities. I want digital humanities work in libraries that is innovative and iterative but that contributes back to the mission of (academic) libraries. The MITH-University Libraries Digital Humanities Incubator is a local effort to make that happen.
 comments: true
