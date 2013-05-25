@@ -25,6 +25,14 @@
 @brand-danger:          #d9534f;
 @brand-info:            #5bc0de;
 
+// Site-specific colors
+// -------------------------
+
+@color-1: #445060;
+@color-2: #849E91;
+@color-3: rgb(193,69,67);
+@color-4: rgb(130,154,181);
+
 // Scaffolding
 // -------------------------
 
@@ -40,18 +48,18 @@
 // Typography
 // -------------------------
 
-@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+@font-family-sans-serif:  "freight-sans-pro", Helvetica, Arial, sans-serif;
+@font-family-serif:       "ff-tisa-web-pro", "Times New Roman", Times, serif;
 @font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
 
-@font-size-base:          19px;
-@font-size-large:         ceil(@font-size-base * 1.25); // ~24px
-@font-size-small:         ceil(@font-size-base * 0.85); // ~16px
-@font-size-mini:          ceil(@font-size-base * 0.75); // ~14px
+@font-size-base:          21px;
+@font-size-large:         ceil(@font-size-base * 1.25); // ~26px
+@font-size-small:         ceil(@font-size-base * 0.85); // ~18px
+@font-size-mini:          ceil(@font-size-base * 0.75); // ~16px
 
-@line-height-base:        1.428571429; // 20/14
-@line-height-computed:    floor(@font-size-base * @line-height-base); // ~27px
+@line-height-base:        1.25; // 20/16
+@line-height-computed:    floor(@font-size-base * @line-height-base); // ~30px
 
 @headings-font-weight:    500;
 @headings-line-height:    1.1;
@@ -59,19 +67,19 @@
 
 // Components
 // -------------------------
-// Based on 19px font-size and 1.428 line-height (~27px to start)
+// Based on 21px font-size and 1.428 line-height (~30px to start)
 
-@padding-base-vertical:          11px;
-@padding-base-horizontal:        16px;
+@padding-base-vertical:          12px;
+@padding-base-horizontal:        18px;
 
-@padding-large-vertical:         19px;
-@padding-large-horizontal:       22px;
+@padding-large-vertical:         21px;
+@padding-large-horizontal:       24px;
 
-@padding-small-vertical:         7px;
-@padding-small-horizontal:       13px;
+@padding-small-vertical:         8px;
+@padding-small-horizontal:       14px;
 
-@border-radius-base:             5px;
-@border-radius-large:            8px;
+@border-radius-base:             6px;
+@border-radius-large:            9px;
 @border-radius-small:            4px;
 
 @component-active-bg:            @brand-primary;
@@ -195,8 +203,8 @@
 @navbar-brand-hover-bg:            transparent;
 
 // Inverted navbar
-@navbar-inverse-color:                       @gray-light;
-@navbar-inverse-bg:                         #222;
+@navbar-inverse-color:                       rgb(214,213,209);
+@navbar-inverse-bg:                         rgb(68,80,96);
 
 // Inverted navbar links
 @navbar-inverse-link-color:                 @gray-light;
