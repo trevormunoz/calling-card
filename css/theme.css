@@ -232,7 +232,7 @@ html {
 body {
   font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
   font-size: 21px;
-  line-height: 1.25;
+  line-height: 1.428571429;
   color: #333333;
   background-color: #ffffff;
 }
@@ -270,10 +270,10 @@ img {
   border-radius: 500px;
 }
 p {
-  margin: 0 0 13px;
+  margin: 0 0 15px;
 }
 .lead {
-  margin-bottom: 26px;
+  margin-bottom: 30px;
   font-size: 31.5px;
   font-weight: 200;
   line-height: 1.4;
@@ -361,14 +361,14 @@ h6 small,
 h1,
 h2,
 h3 {
-  margin-top: 26px;
-  margin-bottom: 13px;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 h4,
 h5,
 h6 {
-  margin-top: 13px;
-  margin-bottom: 13px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 h1,
 .h1 {
@@ -409,14 +409,14 @@ h4 small,
   font-size: 21px;
 }
 .page-header {
-  padding-bottom: 12px;
-  margin: 52px 0 26px;
+  padding-bottom: 14px;
+  margin: 60px 0 30px;
   border-bottom: 1px solid #eeeeee;
 }
 ul,
 ol {
   padding: 0;
-  margin: 0 0 13px 25px;
+  margin: 0 0 15px 25px;
 }
 ul ul,
 ul ol,
@@ -425,7 +425,7 @@ ol ul {
   margin-bottom: 0;
 }
 li {
-  line-height: 1.25;
+  line-height: 1.428571429;
 }
 .list-unstyled {
   margin-left: 0;
@@ -441,17 +441,17 @@ li {
   padding-right: 5px;
 }
 dl {
-  margin-bottom: 26px;
+  margin-bottom: 30px;
 }
 dt,
 dd {
-  line-height: 1.25;
+  line-height: 1.428571429;
 }
 dt {
   font-weight: bold;
 }
 dd {
-  margin-left: 13px;
+  margin-left: 15px;
 }
 .dl-horizontal:before,
 .dl-horizontal:after {
@@ -490,7 +490,7 @@ dd {
   margin-left: 180px;
 }
 hr {
-  margin: 26px 0;
+  margin: 30px 0;
   border: 0;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #fff;
@@ -506,8 +506,8 @@ abbr.initialism {
   text-transform: uppercase;
 }
 blockquote {
-  padding: 13px 26px;
-  margin: 0 0 26px;
+  padding: 15px 30px;
+  margin: 0 0 30px;
   border-left: 5px solid #eeeeee;
 }
 blockquote p {
@@ -520,7 +520,7 @@ blockquote p:last-child {
 }
 blockquote small {
   display: block;
-  line-height: 1.25;
+  line-height: 1.428571429;
   color: #999999;
 }
 blockquote small:before {
@@ -551,9 +551,9 @@ blockquote:after {
 }
 address {
   display: block;
-  margin-bottom: 26px;
+  margin-bottom: 30px;
   font-style: normal;
-  line-height: 1.25;
+  line-height: 1.428571429;
 }
 code,
 pre {
@@ -572,10 +572,10 @@ code {
 }
 pre {
   display: block;
-  padding: 12.5px;
-  margin: 0 0 13px;
+  padding: 14.5px;
+  margin: 0 0 15px;
   font-size: 20px;
-  line-height: 1.25;
+  line-height: 1.428571429;
   word-break: break-all;
   word-wrap: break-word;
   white-space: pre;
@@ -586,7 +586,7 @@ pre {
   border-radius: 6px;
 }
 pre.prettyprint {
-  margin-bottom: 26px;
+  margin-bottom: 30px;
 }
 pre code {
   padding: 0;
@@ -873,14 +873,14 @@ th {
 }
 .table {
   width: 100%;
-  margin-bottom: 26px;
+  margin-bottom: 30px;
 }
 .table thead > tr > th,
 .table tbody > tr > th,
 .table thead > tr > td,
 .table tbody > tr > td {
   padding: 8px;
-  line-height: 1.25;
+  line-height: 1.428571429;
   vertical-align: top;
   border-top: 1px solid #dddddd;
 }
@@ -1037,7 +1037,7 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: 26px;
+  margin-bottom: 30px;
   font-size: 31.5px;
   line-height: inherit;
   color: #333333;
@@ -1066,10 +1066,10 @@ input[type="search"],
 input[type="tel"],
 input[type="color"] {
   display: block;
-  min-height: 50px;
+  min-height: 54px;
   padding: 12px 18px;
   font-size: 21px;
-  line-height: 1.25;
+  line-height: 1.428571429;
   color: #555555;
   vertical-align: middle;
   background-color: #ffffff;
@@ -1135,10 +1135,10 @@ input[type="checkbox"] {
 }
 select,
 input[type="file"] {
-  height: 50px;
+  height: 54px;
   /* In IE7, the height of the select element cannot be changed by height, only font-size. TODO: Check if this is still needed when dropping IE7 support */
 
-  line-height: 50px;
+  line-height: 54px;
 }
 select[multiple],
 select[size] {
@@ -1175,7 +1175,7 @@ textarea::-webkit-input-placeholder {
 .radio,
 .checkbox {
   display: block;
-  min-height: 26px;
+  min-height: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 20px;
@@ -1256,7 +1256,7 @@ input[type="url"].input-small,
 input[type="search"].input-small,
 input[type="tel"].input-small,
 input[type="color"].input-small {
-  min-height: 42px;
+  min-height: 46px;
   padding: 8px 14px;
   font-size: 18px;
   border-radius: 4px;
@@ -1377,7 +1377,7 @@ select:focus:invalid:focus {
   padding: 6px 8px;
   font-size: 21px;
   font-weight: normal;
-  line-height: 1.25;
+  line-height: 1.428571429;
   text-align: center;
   text-shadow: 0 1px 0 #fff;
   background-color: #eeeeee;
@@ -1460,7 +1460,7 @@ select:focus:invalid:focus {
   margin-bottom: 0;
   font-size: 21px;
   font-weight: 500;
-  line-height: 1.25;
+  line-height: 1.428571429;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -2268,7 +2268,7 @@ input[type="button"].btn-block {
 }
 .dropdown-menu .divider {
   height: 2px;
-  margin: 12px 0;
+  margin: 14px 0;
   overflow: hidden;
   background-color: #e5e5e5;
   border-bottom: 1px solid #ffffff;
@@ -2278,7 +2278,7 @@ input[type="button"].btn-block {
   padding: 3px 20px;
   clear: both;
   font-weight: normal;
-  line-height: 1.25;
+  line-height: 1.428571429;
   color: #333333;
   white-space: nowrap;
 }
@@ -2682,7 +2682,7 @@ button.close {
 }
 .nav .nav-divider {
   height: 2px;
-  margin: 12px 0;
+  margin: 14px 0;
   overflow: hidden;
   background-color: #e5e5e5;
   border-bottom: 1px solid #ffffff;
@@ -2696,7 +2696,7 @@ button.close {
 }
 .nav-tabs > li > a {
   margin-right: 2px;
-  line-height: 1.25;
+  line-height: 1.428571429;
   border: 1px solid transparent;
   border-radius: 6px 6px 0 0;
 }
@@ -2769,7 +2769,7 @@ button.close {
   padding: 3px 15px;
   font-size: 16px;
   font-weight: bold;
-  line-height: 1.25;
+  line-height: 1.428571429;
   color: #999999;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
@@ -2856,8 +2856,8 @@ button.close {
   margin-bottom: 15px;
 }
 .navbar-nav > li > a {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: #777777;
   line-height: 20px;
   border-radius: 6px;
@@ -2905,7 +2905,7 @@ button.close {
   padding: 15px;
   font-size: 27px;
   font-weight: 500;
-  line-height: 26px;
+  line-height: 30px;
   color: #777777;
   text-align: center;
 }
@@ -2939,8 +2939,8 @@ button.close {
   margin-top: 4px;
 }
 .navbar-form {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: -2px;
+  margin-bottom: -2px;
 }
 .navbar-form input,
 .navbar-form select,
@@ -3085,11 +3085,11 @@ button.close {
   }
 }
 .navbar-btn {
-  margin-top: 0px;
+  margin-top: -2px;
 }
 .navbar-text {
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .navbar-link {
   color: #777777;
@@ -3256,7 +3256,7 @@ button.close {
 }
 .breadcrumb {
   padding: 8px 15px;
-  margin: 0 0 26px;
+  margin: 0 0 30px;
   list-style: none;
   background-color: #f5f5f5;
   border-radius: 6px;
@@ -3279,7 +3279,7 @@ button.close {
 }
 .pagination {
   display: inline-block;
-  margin: 26px 0;
+  margin: 30px 0;
   border-radius: 6px;
 }
 .pagination > li {
@@ -3289,7 +3289,7 @@ button.close {
 .pagination > li > span {
   float: left;
   padding: 4px 12px;
-  line-height: 1.25;
+  line-height: 1.428571429;
   text-decoration: none;
   background-color: #ffffff;
   border: 1px solid #dddddd;
@@ -3356,7 +3356,7 @@ button.close {
   border-top-right-radius: 4px;
 }
 .pager {
-  margin: 26px 0;
+  margin: 30px 0;
   list-style: none;
   text-align: center;
 }
@@ -3483,14 +3483,14 @@ button.close {
 .modal-header {
   padding: 15px;
   border-bottom: 1px solid #e5e5e5;
-  min-height: 16.25px;
+  min-height: 16.428571429px;
 }
 .modal-header .close {
   margin-top: -2px;
 }
 .modal-title {
   margin: 0;
-  line-height: 1.25;
+  line-height: 1.428571429;
 }
 .modal-body {
   position: relative;
@@ -3746,7 +3746,7 @@ button.close {
 }
 .alert {
   padding: 10px 35px 10px 15px;
-  margin-bottom: 26px;
+  margin-bottom: 30px;
   color: #c09853;
   background-color: #fcf8e3;
   border: 1px solid #fbeed5;
@@ -3816,7 +3816,7 @@ button.close {
 .thumbnail,
 .img-thumbnail {
   padding: 4px;
-  line-height: 1.25;
+  line-height: 1.428571429;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-radius: 6px;
@@ -4001,8 +4001,8 @@ a.list-group-item.active > .badge,
 }
 .progress {
   overflow: hidden;
-  height: 26px;
-  margin-bottom: 26px;
+  height: 30px;
+  margin-bottom: 30px;
   background-color: #f5f5f5;
   border-radius: 6px;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -4083,7 +4083,7 @@ a.list-group-item.active > .badge,
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .accordion {
-  margin-bottom: 26px;
+  margin-bottom: 30px;
 }
 .accordion-group {
   margin-bottom: 2px;
@@ -4266,7 +4266,7 @@ a.list-group-item.active > .badge,
   margin-bottom: 30px;
   font-size: 31.5px;
   font-weight: 200;
-  line-height: 1.875;
+  line-height: 2.1428571435;
   color: inherit;
   background-color: #eeeeee;
 }
@@ -4667,7 +4667,7 @@ footer p {
 }
 @media (min-width: 768px) {
   .static-content {
-    width: 58.333333333333336%;
+    width: 66.66666666666666%;
   }
 }
 .static-content ul {
@@ -4695,7 +4695,7 @@ footer p {
 }
 @media (min-width: 768px) {
   .cv-list {
-    width: 58.333333333333336%;
+    width: 66.66666666666666%;
   }
 }
 .cv-list ul {
@@ -4738,4 +4738,17 @@ footer p {
 }
 blockquote p {
   line-height: 1.0;
+}
+img {
+  padding: 4px;
+  line-height: 1.428571429;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  margin: 10px;
 }
