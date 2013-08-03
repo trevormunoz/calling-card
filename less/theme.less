@@ -1,10 +1,3 @@
-//TO DO:
-//
-// * make code snippet font small
-// * remove border on thumbnail plus caption
-// * make image caption text small
-// * increase spacing before h4 (running heads)
-
 // Core variables and mixins
 @import "variables.less";
 @import "../lib/bootstrap/less/mixins.less";
@@ -92,6 +85,25 @@ pre {
 // Components: Misc
 @import "../lib/bootstrap/less/alerts.less";
 @import "../lib/bootstrap/less/thumbnails.less";
+
+.thumbnail,
+.img-thumbnail {
+  padding: 4px;
+  line-height: @line-height-base;
+  background-color: @thumbnail-bg;
+  border: 0px solid @thumbnail-border;
+  border-radius: 0px;
+  .transition(all .2s ease-in-out);
+}
+
+.thumbnail .caption {
+    p {
+        font-size: @font-size-mini;
+    }
+  padding: 5px;
+  color: @thumbnail-caption-color;
+}
+
 @import "../lib/bootstrap/less/media.less";
 @import "../lib/bootstrap/less/labels.less";
 @import "../lib/bootstrap/less/badges.less";
