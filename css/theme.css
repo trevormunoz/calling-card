@@ -3866,6 +3866,25 @@ a.thumbnail:focus {
   padding: 9px;
   color: #333333;
 }
+.thumbnail,
+.img-thumbnail {
+  padding: 4px;
+  line-height: 1.428571429;
+  background-color: #ffffff;
+  border: 0px solid #dddddd;
+  border-radius: 0px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.thumbnail .caption {
+  padding: 5px;
+  color: #333333;
+}
+.thumbnail .caption p {
+  font-size: 16px;
+}
 .media,
 .media-body {
   overflow: hidden;
@@ -4761,15 +4780,17 @@ blockquote p {
   line-height: 1.0;
 }
 img {
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  display: inline-block;
   padding: 4px;
   line-height: 1.428571429;
   background-color: #ffffff;
-  border: 1px solid #dddddd;
-  border-radius: 6px;
+  border: 0px solid #dddddd;
+  border-radius: 0px;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  display: inline-block;
   margin: 10px;
 }
