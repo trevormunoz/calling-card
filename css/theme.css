@@ -555,6 +555,12 @@ address {
   font-style: normal;
   line-height: 1.428571429;
 }
+h4,
+h5,
+h6 {
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
 code,
 pre {
   padding: 0 3px 2px;
