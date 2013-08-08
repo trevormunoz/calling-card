@@ -4794,3 +4794,6 @@ img {
   transition: all 0.2s ease-in-out;
   margin: 10px;
 }
+.comment-boilerplate {
+  margin-top: 45px;
+}
