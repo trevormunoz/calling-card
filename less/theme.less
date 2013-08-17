@@ -10,9 +10,18 @@
 @import "../lib/bootstrap/less/scaffolding.less";
 @import "../lib/bootstrap/less/type.less";
 
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  margin-top: @line-height-computed;
+  margin-bottom: (@line-height-computed / 2);
+}
 h4,
 h5,
 h6 {
+  font-family: @font-family-sans-serif;
+  font-weight: 700;
   margin-top: (@line-height-computed * 1.5);
   margin-bottom: (@line-height-computed / 2);
 }
@@ -280,7 +289,9 @@ footer {
 }
 
 .entry-wrapper {
-    .make-column-offset(2);
+    .make-column-offset(3);
+    font-family: @font-family-serif;
+    font-size: @font-size-small;
 }
 
 .tldr {

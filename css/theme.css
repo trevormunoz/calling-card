@@ -232,7 +232,7 @@ html {
 body {
   font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
   font-size: 21px;
-  line-height: 1.428571429;
+  line-height: 1.45;
   color: #333333;
   background-color: #ffffff;
 }
@@ -425,7 +425,7 @@ ol ul {
   margin-bottom: 0;
 }
 li {
-  line-height: 1.428571429;
+  line-height: 1.45;
 }
 .list-unstyled {
   margin-left: 0;
@@ -445,7 +445,7 @@ dl {
 }
 dt,
 dd {
-  line-height: 1.428571429;
+  line-height: 1.45;
 }
 dt {
   font-weight: bold;
@@ -520,7 +520,7 @@ blockquote p:last-child {
 }
 blockquote small {
   display: block;
-  line-height: 1.428571429;
+  line-height: 1.45;
   color: #999999;
 }
 blockquote small:before {
@@ -553,11 +553,20 @@ address {
   display: block;
   margin-bottom: 30px;
   font-style: normal;
-  line-height: 1.428571429;
+  line-height: 1.45;
+}
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 h4,
 h5,
 h6 {
+  font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
+  font-weight: 700;
   margin-top: 45px;
   margin-bottom: 15px;
 }
@@ -581,7 +590,7 @@ pre {
   padding: 14.5px;
   margin: 0 0 15px;
   font-size: 20px;
-  line-height: 1.428571429;
+  line-height: 1.45;
   word-break: break-all;
   word-wrap: break-word;
   white-space: pre;
@@ -611,7 +620,7 @@ pre {
   padding: 14.5px;
   margin: 0 0 15px;
   font-size: 16px;
-  line-height: 1.428571429;
+  line-height: 1.45;
   word-break: break-all;
   word-wrap: break-word;
   white-space: pre;
@@ -901,7 +910,7 @@ th {
 .table thead > tr > td,
 .table tbody > tr > td {
   padding: 8px;
-  line-height: 1.428571429;
+  line-height: 1.45;
   vertical-align: top;
   border-top: 1px solid #dddddd;
 }
@@ -1090,7 +1099,7 @@ input[type="color"] {
   min-height: 54px;
   padding: 12px 18px;
   font-size: 21px;
-  line-height: 1.428571429;
+  line-height: 1.45;
   color: #555555;
   vertical-align: middle;
   background-color: #ffffff;
@@ -1398,7 +1407,7 @@ select:focus:invalid:focus {
   padding: 6px 8px;
   font-size: 21px;
   font-weight: normal;
-  line-height: 1.428571429;
+  line-height: 1.45;
   text-align: center;
   text-shadow: 0 1px 0 #fff;
   background-color: #eeeeee;
@@ -1481,7 +1490,7 @@ select:focus:invalid:focus {
   margin-bottom: 0;
   font-size: 21px;
   font-weight: 500;
-  line-height: 1.428571429;
+  line-height: 1.45;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -2299,7 +2308,7 @@ input[type="button"].btn-block {
   padding: 3px 20px;
   clear: both;
   font-weight: normal;
-  line-height: 1.428571429;
+  line-height: 1.45;
   color: #333333;
   white-space: nowrap;
 }
@@ -2717,7 +2726,7 @@ button.close {
 }
 .nav-tabs > li > a {
   margin-right: 2px;
-  line-height: 1.428571429;
+  line-height: 1.45;
   border: 1px solid transparent;
   border-radius: 6px 6px 0 0;
 }
@@ -2790,7 +2799,7 @@ button.close {
   padding: 3px 15px;
   font-size: 16px;
   font-weight: bold;
-  line-height: 1.428571429;
+  line-height: 1.45;
   color: #999999;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
@@ -3310,7 +3319,7 @@ button.close {
 .pagination > li > span {
   float: left;
   padding: 4px 12px;
-  line-height: 1.428571429;
+  line-height: 1.45;
   text-decoration: none;
   background-color: #ffffff;
   border: 1px solid #dddddd;
@@ -3504,14 +3513,14 @@ button.close {
 .modal-header {
   padding: 15px;
   border-bottom: 1px solid #e5e5e5;
-  min-height: 16.428571429px;
+  min-height: 16.45px;
 }
 .modal-header .close {
   margin-top: -2px;
 }
 .modal-title {
   margin: 0;
-  line-height: 1.428571429;
+  line-height: 1.45;
 }
 .modal-body {
   position: relative;
@@ -3837,7 +3846,7 @@ button.close {
 .thumbnail,
 .img-thumbnail {
   padding: 4px;
-  line-height: 1.428571429;
+  line-height: 1.45;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-radius: 6px;
@@ -3869,7 +3878,7 @@ a.thumbnail:focus {
 .thumbnail,
 .img-thumbnail {
   padding: 4px;
-  line-height: 1.428571429;
+  line-height: 1.45;
   background-color: #ffffff;
   border: 0px solid #dddddd;
   border-radius: 0px;
@@ -4306,7 +4315,7 @@ a.list-group-item.active > .badge,
   margin-bottom: 30px;
   font-size: 31.5px;
   font-weight: 200;
-  line-height: 2.1428571435;
+  line-height: 2.175;
   color: inherit;
   background-color: #eeeeee;
 }
@@ -4754,9 +4763,13 @@ footer p {
 .post-slug {
   font-size: 16px;
 }
+.entry-wrapper {
+  font-family: "ff-meta-serif-web-pro", "Times New Roman", Times, serif;
+  font-size: 18px;
+}
 @media (min-width: 768px) {
   .entry-wrapper {
-    margin-left: 16.666666666666664%;
+    margin-left: 25%;
   }
 }
 .tldr {
@@ -4784,7 +4797,7 @@ img {
   border-radius: 6px;
   display: inline-block;
   padding: 4px;
-  line-height: 1.428571429;
+  line-height: 1.45;
   background-color: #ffffff;
   border: 0px solid #dddddd;
   border-radius: 0px;
