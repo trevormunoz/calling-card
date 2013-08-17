@@ -558,7 +558,6 @@ address {
 h1,
 h2,
 h3 {
-  font-weight: 700;
   margin-top: 30px;
   margin-bottom: 15px;
 }
@@ -566,7 +565,6 @@ h4,
 h5,
 h6 {
   font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
-  font-weight: 700;
   margin-top: 45px;
   margin-bottom: 15px;
 }
@@ -4763,14 +4761,15 @@ footer p {
 .post-slug {
   font-size: 16px;
 }
-.entry-wrapper {
-  font-family: "ff-meta-serif-web-pro", "Times New Roman", Times, serif;
-  font-size: 18px;
-}
 @media (min-width: 768px) {
   .entry-wrapper {
-    margin-left: 25%;
+    margin-left: 16.666666666666664%;
   }
+}
+.entry-wrapper p {
+  font-family: "ff-meta-serif-web-pro", "Times New Roman", Times, serif;
+  font-size: 18px;
+  margin: 0 0 30px;
 }
 .tldr {
   min-height: 20px;
