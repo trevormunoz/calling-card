@@ -202,7 +202,7 @@ table {
   img {
     max-width: 100% !important;
   }
-  @page  {
+  @page {
     margin: 2cm .5cm;
   }
   p,
@@ -457,10 +457,8 @@ dd {
 .dl-horizontal:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .dl-horizontal:after {
   clear: both;
@@ -469,10 +467,8 @@ dd {
 .dl-horizontal:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .dl-horizontal:after {
   clear: both;
@@ -636,10 +632,8 @@ pre {
 .container:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .container:after {
   clear: both;
@@ -648,10 +642,8 @@ pre {
 .container:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .container:after {
   clear: both;
@@ -660,10 +652,8 @@ pre {
 .row:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .row:after {
   clear: both;
@@ -672,10 +662,8 @@ pre {
 .row:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .row:after {
   clear: both;
@@ -1158,14 +1146,12 @@ input[type="checkbox"] {
   margin: 4px 0 0;
   margin-top: 1px \9;
   /* IE8-9 */
-
   line-height: normal;
 }
 select,
 input[type="file"] {
   height: 54px;
   /* In IE7, the height of the select element cannot be changed by height, only font-size. TODO: Check if this is still needed when dropping IE7 support */
-
   line-height: 54px;
 }
 select[multiple],
@@ -2645,10 +2631,8 @@ button.close {
 .nav:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .nav:after {
   clear: both;
@@ -2657,10 +2641,8 @@ button.close {
 .nav:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .nav:after {
   clear: both;
@@ -2806,10 +2788,8 @@ button.close {
 .tabbable:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .tabbable:after {
   clear: both;
@@ -2818,10 +2798,8 @@ button.close {
 .tabbable:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .tabbable:after {
   clear: both;
@@ -2859,10 +2837,8 @@ button.close {
 .navbar:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .navbar:after {
   clear: both;
@@ -2871,10 +2847,8 @@ button.close {
 .navbar:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .navbar:after {
   clear: both;
@@ -3161,10 +3135,8 @@ button.close {
 .btn-toolbar:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .btn-toolbar:after {
   clear: both;
@@ -3173,10 +3145,8 @@ button.close {
 .btn-toolbar:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .btn-toolbar:after {
   clear: both;
@@ -3392,10 +3362,8 @@ button.close {
 .pager:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .pager:after {
   clear: both;
@@ -3404,10 +3372,8 @@ button.close {
 .pager:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .pager:after {
   clear: both;
@@ -3534,10 +3500,8 @@ button.close {
 .modal-footer:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .modal-footer:after {
   clear: both;
@@ -3546,10 +3510,8 @@ button.close {
 .modal-footer:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .modal-footer:after {
   clear: both;
@@ -4337,10 +4299,8 @@ a.list-group-item.active > .badge,
 .clearfix:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .clearfix:after {
   clear: both;
@@ -4485,10 +4445,8 @@ footer:before,
 footer:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 footer:after {
   clear: both;
@@ -4497,10 +4455,8 @@ footer:before,
 footer:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 footer:after {
   clear: both;
@@ -4564,10 +4520,8 @@ footer p {
 .splash:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .splash:after {
   clear: both;
@@ -4576,10 +4530,8 @@ footer p {
 .splash:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .splash:after {
   clear: both;
@@ -4666,10 +4618,8 @@ footer p {
 .static-body:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .static-body:after {
   clear: both;
@@ -4678,10 +4628,8 @@ footer p {
 .static-body:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .static-body:after {
   clear: both;
@@ -4787,9 +4735,6 @@ footer p {
 }
 .tldr p {
   font-size: 16px;
-}
-blockquote p {
-  line-height: 1.0;
 }
 img {
   border: 1px solid #dddddd;
