@@ -16,9 +16,15 @@ layout: nil
 	{% for post in site.posts %}
 	<entry>
 		<title>{{ post.title }}</title>
+		{% if post.external_url %}
+		<link href="{{ post.external_url }}"/>
+		<updated>{{ post.date | date_to_xmlschema }}</updated>
+		<id>{{ post.external_url }}</id>
+		{% else %}
 		<link href="http://trevormunoz.com{{ post.url }}"/>
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
 		<id>http://trevormunoz.com{{ post.id }}</id>
+		{% endif %}
 		<content type="html">{{ post.content | xml_escape }}</content>
 	</entry>
 	{% endfor %}
