@@ -11,7 +11,7 @@ comments: true
 
 *Finally, some of the comments on Twitter made clear that we could have signposted more clearly that many of the issues we take up here might be particular to the context of U.S. universities and less relevant to different institutional or international contexts.…*
 
-*Cross-posted at [jguiliano.com](http://www.jguiliano.com)*
+*Cross-posted at [jguiliano.com](http://jguiliano.com/blog/2014/07/14/making-digital-humanities-work/)*
 
 <div class="thumbnail">
     <img src="/img/dh2014_presentation/dh2014_presentation.001.png" alt="Title slide from our Digital Humanities 2014 presentation"/>
