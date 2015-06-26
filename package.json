@@ -7,9 +7,10 @@
     "url": "https://github.com/trevormunoz/calling-card"
   },
   "devDependencies": {
-    "bower": "^1.4.0"
+    "bower": "^1.4.0",
+    "gulp": "^3.9.0"
   },
   "scripts": {
-    "postinstall" : "node_modules/.bin/bower install"
+    "postinstall": "node_modules/.bin/bower install"
   }
 }
