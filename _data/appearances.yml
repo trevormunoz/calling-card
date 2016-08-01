@@ -1,0 +1,26 @@
+- name: Collections as Data Summit
+  url: http://digitalpreservation.gov/meetings/dcs16.html
+  location: Library of Congress
+  date_start: 2016-09-27
+  date_end: 2016-09-28
+  role: speaker
+
+- name: Play/back 2016 Symposium
+  url: http://www.neh.gov/playback
+  location: Library of Congress
+  date_start: 2016-09-30
+  role: attendee
+
+- name: ASALH Annual Meeting and Conference
+  url: https://asalh100.org/annual-meeting/
+  location: Richmond, VA
+  date_start: 2016-10-05
+  date_end: 2016-10-09
+  role: speaker
+
+- name: Digital Library Federation Forum
+  url: https://www.diglib.org/forums/2016forum/
+  location: Milwaukee, WI
+  date_start: 2016-11-07
+  date_end: 2016-11-09
+  role: attendee

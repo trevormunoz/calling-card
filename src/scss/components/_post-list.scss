@@ -1,0 +1,16 @@
+.posts li {
+  margin-bottom: ($line-height * 3);
+}
+
+.post-meta h4,
+.post-meta h5 {
+  margin-bottom: 0;
+}
+
+.post-meta {
+  margin-bottom: ($line-height * .8);
+}
+
+.date-span {
+  font-weight: 700;
+}

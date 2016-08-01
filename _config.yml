@@ -1,0 +1,16 @@
+# Site settings
+title: Trevor Muñoz
+email: trevor@trevormunoz.com
+description: >
+  The personal website of Trevor Muñoz
+baseurl: ""
+url: "http://www.trevormunoz.com"
+twitter_username: trevormunoz
+github_username:  trevormunoz
+
+# Build settings
+markdown: kramdown
+permalink: /notebook/:year/:month/:day/:title.html
+exclude: [src, node_modules, webpack.dev.config.js, webpack.prod.config.js, package.json, README.md]
+keep_files: [static]
+production: true

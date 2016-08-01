@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+{% include navbar.html %}
+
+<main>
+  <div class="title-bloc">
+    <h2 class="post-title">{{ page.title }}</h2>
+    {% if page.subtitle %}
+    <h3 class="post-subtitle">{{ page.subtitle }}</h3>
+    {% endif %}
+  </div>
+
+  {{ content }}
+</main>
+
+{% include footer.html %}

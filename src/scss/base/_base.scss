@@ -1,0 +1,118 @@
+$gutter: 1.618rem;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+  padding: 0;
+}
+
+header,
+main {
+  display: flex;
+  flex-flow: column;
+  max-width: 19.2rem;
+}
+
+header {
+  padding: ($gutter / 2);
+}
+
+main {
+  line-height: 1.48rem;
+  margin-bottom: ($line-height * 2);
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: $headings-line-height;
+  margin-top: 0;
+}
+
+// Smaller margin for running head
+h4 {
+  margin-bottom: $line-height;
+}
+
+figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+
+  img {
+    width: 19.2rem;
+  }
+}
+
+figcaption {
+  color: color(sea-blue);
+  font-family: $italic-font-family;
+  font-size: $font-size-small;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+}
+
+a:hover,
+a:visited,
+a:hover:visited {
+  background: linear-gradient(90deg,
+          color(sea-blue, mid) 66%, transparent 0) repeat-x;
+  background-position: 0 1.2em;
+  background-size: .2em 2px;
+}
+
+p {
+  margin-bottom: $headings-line-height;
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+// Media queries
+@media (min-width: $bp-med) {
+  header,
+  main {
+    max-width: 33.25rem;
+    padding-left: 2rem;
+  }
+
+  figure img {
+    width: 29.4rem;
+  }
+}
+
+@media (min-width: $bp-lg) {
+  main {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  main {
+    padding-left: (2rem + ($gutter / 2));
+  }
+}

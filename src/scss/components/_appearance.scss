@@ -1,0 +1,13 @@
+.event-list > li {
+  margin-bottom: $line-height;
+  margin-top: 0;
+
+  h4 {
+    margin-bottom: 0;
+  }
+
+  p {
+    display: flex;
+    flex-flow: column;
+  }
+}

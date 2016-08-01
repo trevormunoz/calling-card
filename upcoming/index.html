@@ -1,0 +1,26 @@
+---
+layout: page
+title: Upcoming
+---
+
+
+
+<ul class="event-list">
+  {% for event in site.data.appearances %}
+  <li>
+    <h4><a href="{{ event.url }}">{{ event.name }}</a></h4>
+    <p>
+      {% if event.date_end %}
+      <span class="date-span">
+        {{ event.date_start | date: '%-d %B' }}&nbsp;&ndash;&nbsp;{{ event.date_end | date: '%-d %B' }}
+        {{ event.date_end | date: '%Y' }}
+      </span>
+      {% else %}
+      <span class="date-span">{{ event.date_start | date_to_long_string }}</span>
+      {% endif %}
+      {{ event.location }}
+      <span class="role-span">{{ event.role }}</span>
+    </p>
+  </li>
+  {% endfor %}
+</ul>
