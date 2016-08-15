@@ -23,14 +23,16 @@ header,
 main {
   display: flex;
   flex-flow: column;
-  max-width: 19.2rem;
+  max-width: 17.7rem;
 }
 
 header {
+  flex: 1 0 auto;
   padding: ($gutter / 2);
 }
 
 main {
+  flex: 1 0 auto;
   line-height: 1.48rem;
   margin-bottom: ($line-height * 2);
   padding-left: 2rem;
@@ -59,7 +61,7 @@ figure {
   margin-top: 0;
 
   img {
-    width: 19.2rem;
+    width: 17.7rem;
   }
 }
 

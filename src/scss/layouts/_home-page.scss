@@ -2,8 +2,8 @@
   background-color: color(sea-blue);
   color: $baby-powder;
   display: flex;
+  flex: 1 0 auto;
   flex-flow: column;
-  height: 100vh;
   width: 100vw;
 }
 

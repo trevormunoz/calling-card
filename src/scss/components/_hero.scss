@@ -1,5 +1,6 @@
 .site-subhead {
   display: flex;
+  flex: 1 0 auto;
   flex-flow: column;
   font-size: $font-size-h4;
   justify-content: space-between;
