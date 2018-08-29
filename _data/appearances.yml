@@ -1,26 +1,20 @@
-- name: Digital Humanities 2017
-  url: https://dh2017.adho.org/
-  location: Montréal, Canada
-  date_start: 2017-08-08
-  date_end: 2017-08-11
-  role: attendee
-
-- name: Houghton Library 75th Anniversary Symposium
-  url: http://houghton75.org/?event=houghton-library-who-cares-a-75th-anniversary-symposium&event_date=2017-10-06
-  location: Cambridge, MA
-  date_start: 2017-10-06
-  role: speaker
-
-- name: Design for Diversity Working Meeting
-  url: http://dsg.neu.edu/research/design-for-diversity/
-  location: Boston, MA
-  date_start: 2017-10-16
-  date_end: 2017-10-17
+- name: Humanities and Arts in the Age of Big Data Conference
+  url: https://publish.illinois.edu/humanitiesartsinageofbigdata/
+  location: Champaign-Urbana, IL
+  date_start: 2018-10-04
+  date_end: 2018-10-05
   role: speaker
 
 - name: Digital Library Federation Forum
-  url: https://www.diglib.org/forums/2017forum/
-  location: Pittsburgh, PA
-  date_start: 2017-10-23
-  date_end: 2017-10-25
-  role: attendee
+  url: https://forum2018.diglib.org/
+  location: Henderson, NV
+  date_start: 2018-10-15
+  date_end: 2018-10-17
+  role: speaker
+
+- name: Intentionally Digital, Intentionally Black
+  url: https://aadhum.umd.edu/conference/
+  location: College Park, MD
+  date_start: 2018-10-18
+  date_end: 2018-10-20
+  role: co-organizer
